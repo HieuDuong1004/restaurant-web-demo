@@ -1,0 +1,813 @@
+body
+{
+	font-family: 'Cormorant Upright';
+    background-image: url("imageupload/anhback.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+}
+h1
+{
+	text-align: center;
+	font-weight: bold;
+	color: #8b0000;
+	font-size: 60px;
+}
+a
+{
+	text-decoration: none; 
+}
+.box-menu
+{
+	z-index: 4;
+	box-sizing: border-box;
+    position: fixed;
+    display: block;
+    width: 100%	;
+    height: 100px;
+    padding-top: 50px; 	
+	box-shadow: 0px 1px 20px #8b0000;
+	background-color: #dec63e;	
+}
+.box-menu-gioithieu
+{
+	top: 0px;
+	bottom: 0px;
+}
+.box-menu a
+{
+	text-decoration: none;
+	color: #8b0000;
+	font-weight: bold;
+}
+.home-button a
+{
+	color: #dec63e;
+	padding: 20px 20px;
+}
+.active-menu a
+{
+	color: #000000;
+}
+.icons-menu
+{
+	float: left;
+	width: 35%;
+	word-spacing: 28px;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+.icons-menu i
+{
+	color: #8b0000;
+}
+.icons-menu a
+{
+	width: 20px;
+}
+.icons-menu a:hover i, .login-menu a:hover i
+{   
+	color: #FF0000;            
+    cursor: pointer;
+}
+.box-menu ul
+{
+	display: flex;
+}
+.list-menu
+{
+	width: 70%;
+    position: absolute;
+    float: left;
+    top: 0px;
+	left: 205px;
+}
+.button-listmenu
+{
+	color: #8b0000;
+    list-style-type: none;
+	width: 20%;
+	text-align: center;
+	margin-top: 20px;
+}
+/* .home-button
+{
+	list-style-type: none;
+	background-color: #8b0000;
+	margin-top: 20px;
+}
+.home-button a
+{
+	list-style-type: none;
+	background-color: #8b0000;
+	padding: 20px 20px;
+	border: 3px solid #B00101;
+}
+.home-button a:hover
+{
+	background-color: #C50000;
+	border: 3px solid #B00101;
+} */
+.list-menu li
+{
+	list-style-type: none;
+}
+.list-menu li a
+{
+	width: 20%;
+}
+.button-listmenu a:hover
+{
+	color: #FF0000;
+    cursor: pointer;
+}
+.login-menu
+{
+	width: 10%;
+	float: left;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	text-align: center;
+}
+.login-menu span
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Cormorant Upright';
+}
+.space
+{
+	width: 1349px;
+	height: 600px;
+}
+
+.dautrang
+{
+	top: 17px;
+	position: relative;
+	right: 40px;
+}
+.slideshow, .logo, .blend
+{ 
+	position: absolute;
+}
+.slideshow
+{
+	z-index: 1;
+}
+.blend
+{
+	z-index: 2;
+	width: 1349px;
+	height: 600px;
+	margin: 22px;
+	margin-left: 40px;
+}
+.rslides
+{
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+}
+.slides li
+{
+	/* -webkit-backface-visibility: hidden; */
+	position: absolute;
+	display: none;
+}
+.rslides li:first-child
+{
+	position: relative;
+	display: block;
+	float: left;
+}
+.rslides img
+{
+	display: block;
+	float: left;
+	width: 1349px;
+	height: 600px;
+}
+.logo
+{
+	text-align: center;
+	padding-left: 470px;
+	padding-top : 100px;
+	height: 500px;
+	width: 500px;
+	z-index: 3;	
+}
+.contact
+{
+	position: fixed;
+	z-index: 6;
+	bottom: 10px;
+	right: 20px;
+}
+.contact img
+{
+	height: 45px;
+	width: 45px;
+}
+.contact img:hover
+{
+	height: 60px;
+	width: 60px;
+}
+.nut-contact 
+{
+	display: block;
+}
+.intro
+{
+	background-color: #dec63e;
+	background-image: url("imageupload/nen_2.png");
+	color:  black;
+	font-weight: bold;
+	padding-bottom: 50px;
+	margin-top: 100px;
+}
+.hinh-intro
+{
+	float: right;
+	margin-right: 30px;
+}
+.hoa-tiet
+{
+	height: 46px;
+	width: 46px;
+}
+.intro p
+{
+	margin-left: 60px;
+}
+.xemtiep
+{
+	text-align: center;
+	padding: 40px;
+}
+.xemtiep a
+{
+	color: #dec63e;
+	width: 300px;
+	background-color: #8b0000;
+	padding: 15px 30px;
+	font-weight: bold;
+    border: none;
+}
+.xemtiep a:hover
+{
+	background-color: #cb0e0e;
+}
+.review-thucdon
+{
+	background-image: url("imageupload/anhbackthucdon.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+.khung-reviewthucdon
+{
+	background-image: url("imageupload/anhback.png"); 
+	background-attachment:fixed;
+	background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+	margin-right: 250px;
+	text-align: center;
+	position: relative;
+	padding-bottom: 60px;
+	padding-top: 40px;
+}
+.tieudethucdon
+{
+	font-weight: bold;
+	text-align: center;
+	background-color: #dec63e;
+	margin-left: 250px;
+	margin-right: 250px;
+	padding: 20px;
+	background-image: url("imageupload/nen_2.png");
+}
+.tieudethucdon h1
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.anhmonngon
+{
+	height: 200px;
+	width: 200px;
+}
+.chumonngon
+{
+	background-color: #dec63e;
+	font-size: 20px;
+	position: relative;
+	bottom: 10px;
+	padding: 0.1px;
+}
+.chumonngon p
+{
+	font-weight: bolder;
+	display: block;
+	color: #2e2e2e;
+}
+.cacmonngon
+{
+	display: inline-block;
+	padding: 28px;
+	padding-top: 12px;
+	padding-right: 28px;
+	padding-left: 28px;
+}
+.datban
+{
+	background-image: url("imageupload/anhbackdatban.png");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+}
+.trang-tri
+{
+	float: left;
+}
+.trang-tri-be
+{
+	margin: 100px 0px 0px 70px;
+}
+.trang-tri-lon
+{
+	margin: 300px 0px 0px 22px;
+}
+.khungdatban
+{
+	background-color: #dec63e;
+	padding: 20px 0px 70px 0px;
+	margin: 0px 50px 0px 650px;
+	background-image: url("imageupload/nen_1.png");
+	background-repeat: no-repeat;
+}
+.formdat
+{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+input, select
+{
+	outline-style: none;
+	border: 2px solid #dec63e;
+    border-bottom: 2px solid #8b0000;
+}
+.submit, .button
+{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    bottom: 10px;
+    cursor: pointer;
+    background-color: #8b0000;
+    font-size: 25px;
+    color: #dec63e;
+    font-family: 'Cormorant Upright';
+    font-weight: bold;
+    outline-style: none;
+}
+.submit:hover
+{
+    background-color: #cb0e0e;
+}
+input
+{
+	background-color: #dec63e;
+	width: 210px;
+}
+select
+{
+	background-color: #dec63e;
+	width: 210px;
+}
+.nutform
+{
+	font-family: 'Cormorant Upright';
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+.nhapso
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+}
+.tintuc
+{
+	margin-top: 50px;
+	background-image: url("imageupload/anhbacktintuc.png");
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.tieude-news
+{
+	background-color: #dec63e;
+	padding: 30px;
+	background-image: url("imageupload/nen_2.png");
+}
+.khungnews
+{
+	padding: 50px 0px;
+    width: 75%;
+   	background-image: url("imageupload/anhback.png");
+	background-attachment: fixed;
+	background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: 50px; 	
+}
+.news
+{
+	margin-top: 45px; 
+	margin-left: 45px;
+    width: 250px;
+    height: 100px;
+    display: inline-table;
+    padding: 0px 0px;
+}
+.news a
+{
+	font-size: 19px;
+    font-weight: bold;
+    color: #000;
+}
+.thumb
+{
+    width: 250px;
+    height: 150px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.title
+{
+	height: 90px;
+	padding-top: 20px;
+	border: 0.1px solid #CBCBCB;
+}
+.title a
+{
+	text-align: center;
+	margin: 0px 15px;
+	overflow: hidden;
+	line-height: 25px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    height: 50px;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+footer
+{
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #dec63e;
+}
+footer a
+{
+	color: #8b0000;
+}
+.phancuoi
+{
+	padding: 5px 50px 0px 50px;
+	color: black;
+	height: 400px;
+	background-image: url("imageupload/nen_2.png");
+}	
+.gui-sdt
+{
+	border-bottom: 1px solid white;
+	margin-top: 40px;
+}
+.gui-sdt .button
+{
+	margin-bottom: 40px;
+	padding: 4px;
+	font-size: 20px;
+	width: 140px;
+}
+.fb-page
+{
+	width: 35%;
+	float: right;
+	margin-top: 50px;
+	display: inline;
+}
+.thongtin
+{
+	float: right;
+	width: 40%;
+}
+.thongtin img
+{
+	width: 20px;
+	height: 20px;
+	vertical-align:middle;
+}
+.gio-mo-cua
+{
+	margin-top: 5px;
+	float: right;
+	width: 25%;
+}
+.quyen-tgia
+{
+	text-align: center;
+	height: 130px;
+	background-image: url("imageupload/anhbackfooter.png");
+	font-size: 16px;
+	color: white;	
+}
+.quyen-tgia p 
+{
+	padding-top: 70px;
+}
+.intro-content
+{
+	background-color: #F5ECEC;
+	background-image: url("imageupload/nen_2.png");
+	margin: 0px 100px;
+	padding-bottom: 100px;
+	font-weight: bold;
+}
+.phan-intro
+{
+	margin-top: 70px;
+}
+.gthieu-chung h1, .gthieu-chung p
+{
+	margin: 50px 100px; 
+}	
+.gthieu-chung h1
+{
+	padding-top: 50px;
+}
+.gthieu-chung .anh-gioi-thieu
+{
+	border-radius: 0%;
+	margin-top: 0px;
+}
+.anh-gioi-thieu
+{
+	width: 600px;
+	height: 260px;
+	border-radius: 50%;
+	margin-top: 120px;
+}
+.gthieu-ten-douong-sukien
+{
+	margin-left: 20px;
+}
+.gthieu-ten-douong-sukien .anh-gioi-thieu
+{
+	float: right;
+	margin-left: 20px;
+	width: 50%;
+}
+.gthieu-mon-kgian
+{
+	margin-right: 20px;
+}
+.gthieu-mon-kgian .anh-gioi-thieu
+{
+	margin-right: 20px;
+	width: 50%;
+	float: left;
+}
+.thucdon
+{
+    width: 80%;
+    margin-left: auto ;
+    margin-right:auto ;
+    font-size: 25px;
+    position: relative;
+    background-color: #F8DAFB;
+    background-image: url("imageupload/nen_2.png");
+    padding: 100px 20px;
+
+}
+.thucdon h1
+{
+    font-size: 100px;
+    text-align: center;
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thucdon h2{
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.thucdon  .gach{
+    width: 100%;
+    opacity: 0.5;
+    border-bottom: 2px solid #5C250F;
+    top:0;
+    left: 0;
+}
+ .thucdon  .list_item1{ /* nếu thực đơn 1 hàng thì để list_item1 <3 món */
+    width: 980px;
+    height: 500px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+
+}
+.thucdon .list_item2{ /* nếu thực đơn 2 hàng thì để list_item2 >3<6 món */
+    width: 980px;
+    height: 1000px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+
+}
+._1item{
+    margin-left: 20px;
+    width: 300px;
+    height: 450px;
+    font-size:15px;
+    position: relative;
+    color:#2e2e2e;
+}
+._1mon{
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+._1mon .anh{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+._1mon:hover .anh{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+._1mon .back{
+    width: 300px;
+    height: 120px;
+    transition: 0.5s;
+    opacity: 0.8;
+    background: rgb(222, 198, 62);
+    position: absolute;
+    bottom:0px;
+    left: 0;
+}
+._1mon:hover .back{
+    width: 100%;
+    height: 40%; 
+    opacity: 1;
+}
+._1mon .text{
+    width: 100%;
+}
+._1mon .text p
+{
+    width: 100%;
+    position: absolute;
+    font-size: 25px;
+    bottom: 20px;
+    transition:0.5s;
+    text-align: center;
+    font-weight: bolder;
+}
+._1mon:hover .text p{
+    bottom: 130px;
+    text-align: center;
+    transform: scale(1.1);
+}
+
+._1mon:hover .text p
+{
+    bottom: 68px;
+}
+._1item ._1mon .order{
+    position: absolute;
+    transition: 0.5s;
+    text-align: center;
+    bottom: -10px;
+    left:101px;
+    width: 0px;
+    height: 0px;
+}
+._1item ._1mon .order a{
+    padding: 10px 20px;
+	border-radius: 30px;
+	background-color:  #FF5200;
+	font-weight:bolder;
+    letter-spacing: .05rem;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+._1mon:hover .order{
+    bottom: 25px;
+}
+.order:hover a
+{
+    color:white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+
+.form-login
+{
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    margin-top: 12px;
+}
+.form-login a{
+    text-decoration: none;
+    color: #8b0000;
+}
+.form-login a:hover{
+    color: red;
+}
+#form_id{
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+    background: #dec63e;
+   	background-image: url("imageupload/nen_2.png");
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 100px;
+}
+.form-login h1{
+    margin: 20px 0px;
+    font-size: 50px;
+}
+.form-text{
+    margin: 60px 0px;
+    position: relative;
+}
+.form-text:hover{
+    cursor: pointer;
+}
+.form-text span{
+    position: absolute;
+    top: -15px;
+    left: 5px;
+}
+.form-text:hover span{
+    top: -25px;
+    left: 5px;
+    transition: 0.5s;
+}
+.form-text input{
+    width: 85%;
+    height: 35px;
+}
+.form-login input[type=button]{
+    display: block;
+    margin: 0 auto;  
+    background: #8b0000;
+    color: #dec63e;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.form-login input[type=button]:hover{
+    background:radial-gradient(#8b0000 5%, blueviolet 100%);
+    cursor: pointer;
+}
+.link-signup
+{
+	font-size: 18px;
+}
+

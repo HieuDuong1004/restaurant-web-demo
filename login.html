@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" type="text/css" href="css/filecsstrangchu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript/jslogin.js"></script>
+</head>
+<body>
+    <header> 
+        <div class="box-menu box-menu-gioithieu">
+            <div class="icons-menu">
+                <a href="facebook.com/nhahangchanay"><i class="fab fa-facebook-square"></i></a>
+                <a href="twitter.com"><i class="fab fa-twitter" ></i></a>
+                <a href="youtube.com"><i class="fab fa-youtube" ></i></a>
+                <a href="mail.google.com"><i class="fas fa-envelope" ></i></a>
+            </div>
+            <div class="list-menu">
+                <ul>
+                    <li class="button-listmenu"><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="button-listmenu"><a href="thucdon.html">Thực đơn</a></li>
+                     <li class="button-listmenu"><a href="index.html">Trang Chủ</a></li>
+                    <li class="button-listmenu"><a href="index.html">Tin tức</a></li>
+                    <li class="button-listmenu"><a href="#thongtin-lienhe">Liên Hệ</a></li>                      
+                </ul>
+            </div>
+            <div class="login-menu  active-menu">
+                    <a href="login.html"><i class="fas fa-user"><br><span>Đăng Nhập</span></i></a>
+            </div>
+        </div>
+        <div class="contact">
+            <a href="http://zaloapp.com/qr/p/o4c3e7su1zs0" class="nut-contact contact-zalo" >
+                <img src="imageupload/zalo-icon.png" alt="Liên hệ Zalo">
+            </a>
+            <a href="https://www.facebook.com/nhahangchanay" class="nut-contact contact-fb">
+                <img src="imageupload/fb-icon.png" alt="Liên hệ Facebook">
+            </a>
+            <a href="tel:0763175785" class="nut-contact contact-phone">
+                <img src="imageupload/phone-icon.png" alt="Liên hệ Hot-line">
+            </a>
+        </div>
+    </header>
+    <div class="form-login">
+        <form id="form_id"   name="myform">
+            <h1>Đăng Nhập</h1>
+            <div class="form-text">
+                <span>Username</span>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="form-text">
+                <span>Password</span>
+                <input type="password" name="password" id="password">
+            </div>
+            <input class="button" type="button" value="Đăng Nhập"  id="submit" onclick="validate()" >
+            <span class="link-signup">Bạn chưa có tài khoản? Đăng kí <a href="">tại đây</a></span>
+        </form>
+    </div>
+    <footer>
+        <div class="phancuoi">
+            <div class="gui-sdt">
+                <h2>Đăng ký nhận thông tin khuyến mãi</h2>
+                <form name="formsdt" method="post">
+                    <input type="text" size="30" name="sdthoai" placeholder="Nhập vào số điện thoại: " class="nhapso" id="sdthoai">
+                    <button type="button" class="button" onclick="nhapsdt()">Gửi</button>
+                </form>
+            </div>
+            <div class="gio-mo-cua">
+                <h2>Giờ mở cửa</h2>
+                <p>Thứ Hai - Chủ Nhật: 07:00 - 21:00</p>
+            </div>
+            <div class="thongtin" id="thongtin-lienhe">
+                <h2>Thông tin</h2>
+                <p><img src="imageupload/add.png"> Địa chỉ: <a href="https://goo.gl/maps/KCxqPm2h4iDf8F6N7"><span>số 3, Cầu Giấy, Láng Thượng Đống Đa, Hà Nội.</span></a></p>
+                <p><img src="imageupload/dthoai.png"> Điện thoại: 0763175785</p>
+                <p><img src="imageupload/page.png">  Email: nhahangchanay@gmail.com</p>
+                <p><img src="imageupload/fb.png"> Facebook:<a href="https://www.facebook.com/nhahangchanay"><span> https://www.facebook.com/nhahangchanay</a></span></p>
+            </div>
+            <iframe class="fb-page" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnhahangchanay&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <div class="quyen-tgia">
+            <p>Copyright 2020 © Nhà hàng Chăn Ay</p>
+        </div>
+    </footer>
+</body>
+</html>
